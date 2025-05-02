@@ -25,5 +25,9 @@ app.use("/api/favorites", favoritesRoutes);
 // Connect to MongoDB
 connectDB();
 
+app.get("/", (req, res) => {
+  res.json({ message: "Backend is running!" });
+});
+
 // Export for Vercel
 module.exports = app;
