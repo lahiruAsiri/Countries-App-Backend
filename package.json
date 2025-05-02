@@ -2,8 +2,8 @@
   "name": "countries-app-backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "node src/api/server.js",
-    "dev": "nodemon src/api/server.js"
+    "start": "node src/api/index.js",
+    "dev": "nodemon src/api/index.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
